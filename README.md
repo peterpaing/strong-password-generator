@@ -30,6 +30,11 @@ While building this project, I learned:
 - Add password strength checker
 - Add custom password length
 - Add symbols and numbers options
+## Live Demo
+https://lets-secure.netlify.app/
 
+## Screenshot
+![password generator mobile version screenshot](mobileVersion.png)
+![password generator pc version screenshot](pcVersion.png)
 ## Author
 Made by [Peter Paing]

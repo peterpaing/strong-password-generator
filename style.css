@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECFDF5;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+
+.header-container {
+    width: 550px;
+    height: 550px; 
+   padding-top: 115px;
+    padding-left: 52px;
+}
+
+.heading {
+    width: 354px;
+    height: 80px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800; 
+    font-size: 40px;  
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    color: #111827;
+}
+
+.spread {
+    display: block;
+    color: #10B981;
+}
+
+.subheading {
+    width: 372px; 
+    height: 28px;  
+     margin-top: 10px; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6B7280; 
+}
+
+.generate-btn {
+    
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #10B981; 
+    margin-top: 51px;
+    padding: 9px 17px 9px 15px;
+    color: #FFFFFF;                
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;              
+    font-size: 16px;                
+    line-height: 24px;             
+}
+
+.password-display {
+    width: 211px;
+    height: 39px;
+    opacity: 1;
+    border-radius: 6px;
+    background: #273549;
+    margin-top: 70px; 
+}
+
+
+.password-container {
+    display: flex;
+    gap: 24px;        
+    margin-top: 70px;  
+}
+
+
+.password-display {
+    width: 211px;
+    height: 39px;
+    opacity: 1;
+    border-radius: 6px;
+    background: #273549;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #5DEF92;
+}
+
+@media (max-width: 600px){
+
+    body{
+        padding: 20px;
+    }
+
+    .header-container{
+        width: 100%;
+        height: auto;
+
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .heading{
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .subheading{
+        width: 100%;
+        font-size: 18px;
+         line-height: 24px;
+    }
+
+    .generate-btn{
+        width: 100%;
+    }
+
+    .password-container{
+        flex-direction: column;
+
+        gap: 15px;
+       margin-top: 40px;
+    }
+
+    .password-display{
+        width: 100%;
+         margin-top: 0;
+    }
+
+}
